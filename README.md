@@ -1,6 +1,8 @@
 # Build a Message Bus with Redis Streams and FastAPI
 
-Readme [also in Spanish here](./readme_spanish.md).
+This code accompanies a [presentation given at RedisConf 2020](https://events.redislabs.com/sessions/build-message-bus-redis-streams-fastapi/).
+
+We'll be building a message bus that lets web clients consume message streams published by producers with access to a Redis instance, without the web clients or producers knowing anything about each other.
 
 ## How to run the code in this repo
 
@@ -34,3 +36,7 @@ You can read more about Redis streams, and how to publish messages to them and r
 I'm Kyle Bebak, web architect at [Elementary Robotics](https://www.elementaryrobotics.com/). I write stuff in Python, and web app with React and TypeScript. I like biking, cooking, walking my dog, etc.
 
 My email is kyle@elementaryrobotics.com.
+
+## Español
+
+Readme [also in Spanish here](./readme_spanish.md).
