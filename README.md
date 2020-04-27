@@ -4,6 +4,8 @@ This code accompanies a [presentation given at RedisConf 2020](https://events.re
 
 We'll be building a message bus that lets web clients consume message streams published by producers with access to a Redis instance, without the web clients or producers knowing anything about each other.
 
+This message bus uses Redis Streams to pass messages, just like [the Atom library that handles communication for most of the Elementary Robotics stack](https://github.com/elementary-robotics/atom).
+
 ## How to run the code in this repo
 
 First install Redis, and run `redis-server`.
